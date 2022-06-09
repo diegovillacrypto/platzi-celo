@@ -3,7 +3,7 @@ import { ethers, BigNumber } from "ethers";
 import {Box, Button, Flex, Input, Text} from "@chakra-ui/react";
 import loveNFT from "./LoveNFT.json";
 
-const loveNFTAddress = "0x5DBf6cF93fA6B5FdAe48f8961362FFa6e305E4E6";
+const loveNFTAddress = "0x90aB661B2C33d4890C468a9ed6fc485Eb19B63F8";
 
 const MainMint = ({ accounts, setAccounts }) => {
     const [mintAmount, setMintAmount] = useState(1);
